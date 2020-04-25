@@ -1,0 +1,51 @@
+@media (max-width : 1000px) {
+        /* Tambahkan CSS untuk lesson */
+        .list-item {
+            flex-wrap: wrap;
+        }
+        
+        .list-item li{
+            width: 50%;
+            padding: 20px;
+            margin-bottom: 5px;
+        }
+
+        .tim {
+            width: 100%;
+        }
+
+        .atas, .bawah {
+            text-align: center;
+        }
+
+        .heading p {
+            font-size: normal;
+        }
+    }
+
+@media (max-width : 670px) {
+    /* Tambahkan CSS untuk lesson */
+    .list-item {
+        flex-direction : column;
+    }
+    
+    .list-item li{
+        margin : 0 auto;
+    }
+
+    .atas, .bawah {
+        text-align: center;
+    }
+
+    .heading p {
+        font-size: normal;
+    }
+
+    .header-kanan {
+        display : none;
+    }
+
+    .menu-icon {
+        display : block;
+    }
+}
